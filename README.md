@@ -68,6 +68,7 @@ app.delete: http://localhost:3000/inventario/:id
 - Criar POST: http://localhost:3000/inventario
 - Corpo
 
+```JSON
 {
     "item": "Projetor Epson",
     "local": "Sala 03",
@@ -75,9 +76,11 @@ app.delete: http://localhost:3000/inventario/:id
     "valor": 5800,
     "patrimonio": "PAT-00128"
 }
+```
 
 - Resposta
 
+```JSON
 {
     "id": 4,
     "item": "Projetor Epson",
@@ -86,9 +89,11 @@ app.delete: http://localhost:3000/inventario/:id
     "valor": 5800,
     "patrimonio": "PAT-00128"
 }
+```
 
 - Atualização PUT: http://localhost:3000/inventario/:id
 
+```JSON
 {
     "item": "Projetor AOC",
     "local": "Sala 05",
@@ -96,9 +101,11 @@ app.delete: http://localhost:3000/inventario/:id
     "valor": 6000,
     "patrimonio": "PAT-00129"
 }
+```
 
 - Reposta
 
+```JSON
 {
     "id": 5,
     "item": "Projetor AOC",
@@ -107,6 +114,7 @@ app.delete: http://localhost:3000/inventario/:id
     "valor": 8000,
     "patrimonio": "PAT-00129"
 }
+```
 
 ## Testes com extensão Thunder Client do VsCode
 

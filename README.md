@@ -1,1 +1,36 @@
-# codigo_backend
+# Aula_Beckend_Atividade
+
+## API Empresa de Dispositivos
+
+Projeto exemplo para aula de desenvolvimento de sistemas backend utilizando dados em mockupJSON
+
+- times.json
+
+```JSON
+[
+    {
+        "id": 1,
+        "item": "Notebook Dell",
+        "local": "Labortorio 01",
+        "dataRegistro": "2026-09-10",
+        "valor": 3500,
+        "patrimonio": "PAT-00125"
+    },
+    {
+        "id": 2,
+        "item": "Notebook Samsumg",
+        "local": "Labortorio 02",
+        "dataRegistro": "2026-08-11",
+        "valor": 4500,
+        "patrimonio": "PAT-00126"
+    },
+    {
+        "id": 3,
+        "item": "Notebook Apple",
+        "local": "Labortorio 03",
+        "dataRegistro": "2026-10-12",
+        "valor": 5500,
+        "patrimonio": "PAT-00127"
+    }
+]
+```
